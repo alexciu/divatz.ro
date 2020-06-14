@@ -1,0 +1,32 @@
+{
+  "name": "divatz.ro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "rm -R .cache && parcel build src/*.html --out-dir prod",
+    "webp": "node webp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexciu/divatz.ro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexciu/divatz.ro/issues"
+  },
+  "homepage": "https://github.com/alexciu/divatz.ro#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "postcss-modules": "^2.0.0",
+    "sass": "^1.26.7"
+  },
+  "dependencies": {
+    "index": "^0.4.0"
+  }
+}

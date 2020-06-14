@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Sitemap: https://divatz.ro/page-sitemap.xml
+Disallow: /lib/

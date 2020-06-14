@@ -1,0 +1,46 @@
+/* header
+=================== */
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 1em;
+  }
+
+  a {
+    font-weight: 900;
+    text-decoration: none;
+    padding: .5em;
+    text-transform: uppercase;
+    color: white;
+    font-size: .8rem;
+  }
+
+  a:hover,
+  a:focus {
+    color: #ddd;
+  }
+}
+
+@media (min-width:60rem) {
+  .logo {
+    float: left;
+  }
+
+  nav {
+    float: right;
+  }
+}

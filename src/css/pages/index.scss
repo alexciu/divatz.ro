@@ -1,0 +1,13 @@
+/* Parallax
+=================== */
+
+.parallax--bg,
+.parallax--box {
+  transition: initial;
+}
+
+@import './../parts/header';
+
+@import './../parts/hero';
+@import './../parts/portofolio';
+@import './../parts/cta';

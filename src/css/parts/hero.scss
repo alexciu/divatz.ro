@@ -1,0 +1,90 @@
+@import './../utils/vars';
+
+/* hero-home
+=================== */
+
+.home-hero {
+  background-image: url(./../../img/hero_v4.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width: 60rem) {
+  .home-hero {
+    height: 100vh;
+    padding-top: 35vh;
+  }
+}
+
+
+/* hero-home
+=================== */
+
+.home-about-textbox {
+  background-color: $secColor;
+  padding: 4em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 2px solid $primColor;
+  outline-offset: -2.5em;
+  color: #FFF;
+  position: relative;
+
+  h1 {
+    color: $primColor;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .75em;
+    background: $secColor;
+    padding: 0 .145em;
+  }
+}
+
+@media (min-width: 25rem) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .home-about-textbox {
+    padding: 5.5em;
+
+    h1 {
+      top: .6em;
+      padding: 0 .325em;
+    }
+  }
+
+}
+
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-about {
+    background-image: url(./../../img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10em;
+  }
+
+  .home-about-textbox {
+    width: 50%;
+    padding: 7em;
+    outline-offset: -3.75em;
+    margin-left: -2.5%;
+    top: -5em;
+    text-align: left;
+    box-shadow: 0 0 4em 0 rgba(0, 0, 0, .3);
+
+    h1 {
+      top: .75em;
+      left: 6rem;
+      transform: translateX(0);
+    }
+  }
+
+}

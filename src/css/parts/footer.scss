@@ -1,0 +1,19 @@
+@import './../utils/vars';
+
+/* Footer
+=================== */
+
+footer {
+  background: $secColor;
+  color: #fff;
+  text-align: left;
+  padding: 5em 0;
+  position: relative;
+
+  div.copy {
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: -4em;
+  }
+}
