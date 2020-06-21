@@ -16,4 +16,26 @@ footer {
     position: relative;
     bottom: -4em;
   }
+
+
+  .social i {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid $primColor;
+    }
+  }
+
+  .cuprins a,
+  .terms a {
+    font-size: 0.80em;
+
+
+  }
 }

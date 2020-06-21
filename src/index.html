@@ -20,15 +20,22 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favico/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favico/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favico/favicon-16x16.png">
-  <link rel="manifest" href="./img/favico/site.webmanifest">
+  <link rel="manifest" href="./site.webmanifest">
   <link rel="stylesheet" href="./css/styles.scss" />
   <link rel="stylesheet" href="./css/pages/index.scss" />
+  <script src="https://kit.fontawesome.com/ff7f40e6e2.js" crossorigin="anonymous" async></script>
+
 </head>
 
 <body>
 
   <header>
-    <img src="img/logo.png" alt="Divatz IT&C SRL logo" class="logo">
+    <picture>
+      <source type="image/webp" srcset="img/webp/logo.webp">
+      <source type="image/png" srcset="img/logo.png">
+      <img src="img/logo.png" alt="Divatz IT&C SRL logo" class="logo">
+    </picture>
+
     <nav>
       <ul>
         <li><a href="">Home</a></li>
@@ -40,7 +47,7 @@
 
   <section class="home-hero parallax--bg">
     <div class="container">
-      <h1 class="title parallax--box">Facem sa fie bine <span>si afacerea ta va merge inainte</span>
+      <h1 class="title parallax--box">Specialistul tău în IT&C <span>și afacerea ta va merge înainte</span>
       </h1>
       <a href="#portofolio" class="button button-accent">Serviciile oferite</a>
     </div>
@@ -67,114 +74,147 @@
 
     <!-- portfolio item 01 -->
     <figure class="port-item">
-      <img src="img/pc-config.jpg" alt="portfolio item">
-      <figcaption class="port-desc">
-        <h2>PC</h2>
-        <p>Service - Upgrade - Consultanta - Configurare - Achizitie - Instalare sistem de operare</p>
-        <a href="" class="button button-accent button-small">Detalii</a>
-      </figcaption>
-    </figure>
+      <picture>
+        <source type="image/webp" srcset="img/webp/pc-config.webp">
+        <source type="image/jpeg" srcset="img/pc-config.jpg">
+        <img src="img/pc-config.jpg" alt="portfolio item">
+      </picture>
 
-    <!-- portfolio item 02 -->
-    <figure class="port-item">
-      <img src="img/laptop.jpg" alt="portfolio item">
       <figcaption class="port-desc">
-        <h2>Laptop</h2>
-        <p>Service - Upgrade - Consultanta - Configurare - Achizitie - Instalare sistem de operare</p>
-        <a href="" class="button button-accent button-small">Detalii</a>
-      </figcaption>
-    </figure>
-
-    <!-- portfolio item 03 -->
-    <figure class="port-item">
-      <img src="img/websites.jpg" alt="portfolio item">
-      <figcaption class="port-desc">
-        <h2>Afacerea ta online</h2>
-        <p>Creare website - Landing page - Prezentare - Magazin online</p>
-        <a href="" class="button button-accent button-small">Detalii</a>
-      </figcaption>
-    </figure>
-
-    <!-- portfolio item 04 -->
-    <figure class="port-item">
-      <img src="img/personalizare.jpg" alt="portfolio item">
-      <figcaption class="port-desc">
-        <p>Project title</p>
-        <a href="" class="button button-accent button-small">Detalii</a>
-      </figcaption>
-    </figure>
-
-    <!-- portfolio item 05 -->
-    <figure class="port-item">
-      <img src="img/security.jpg" alt="portfolio item">
-      <figcaption class="port-desc">
-        <p>Project title</p>
+        <h2>PC/Laptop</h2>
+        <p>Reparatii, Configuratii, Instalare</p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
     </figure>
 
     <!-- portfolio item 06 -->
     <figure class="port-item">
-      <img src="img/sysadmin.jpg" alt="portfolio item">
+      <picture>
+        <source type="image/webp" srcset="img/webp/sysadmin.webp">
+        <source type="image/jpeg" srcset="img/sysadmin.jpg">
+        <img src="img/sysadmin.jpg" alt="portfolio item">
+      </picture>
       <figcaption class="port-desc">
-        <p>Project title</p>
+        <h2>Retelistica</h2>
+        <p>Creare si mentenanta retele </p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
     </figure>
 
+    <!-- portfolio item 05 -->
+    <figure class="port-item">
+      <picture>
+        <source type="image/webp" srcset="img/webp/security.webp">
+        <source type="image/jpeg" srcset="img/security.jpg">
+        <img src="img/security.jpg" alt="portfolio item">
+      </picture>
+
+      <figcaption class="port-desc">
+        <h2>Securitate</h2>
+        <p>Camere video de securitate</p>
+        <a href="" class="button button-accent button-small">Detalii</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 04 -->
+    <figure class="port-item">
+      <picture>
+        <source type="image/webp" srcset="img/webp/personalizare.webp">
+        <source type="image/jpeg" srcset="img/personalizare.jpg">
+        <img src="img/personalizare.jpg" alt="portfolio item">
+      </picture>
+      <figcaption class="port-desc">
+        <h2>Personalizari</h2>
+        <p>Print, gravura, broderie etc</p>
+        <a href="" class="button button-accent button-small">Detalii</a>
+      </figcaption>
+    </figure>
+
+
+    <!-- portfolio item 06 -->
+    <figure class="port-item">
+      <picture>
+        <source type="image/webp" srcset="img/webp/diverse.webp">
+        <source type="image/jpeg" srcset="img/diverse.jpg">
+        <img src="img/diverse.jpg" alt="portfolio item">
+      </picture>
+      <figcaption class="port-desc">
+        <h2>Achizitii <br /> echipamente IT</h2>
+        <p></p>
+        <a href="" class="button button-accent button-small">Detalii</a>
+      </figcaption>
+    </figure>
+    <!-- portfolio item 03 -->
+    <figure class="port-item">
+      <picture>
+        <source type="image/webp" srcset="img/webp/websites.webp">
+        <source type="image/jpeg" srcset="img/websites.jpg">
+        <img src="img/websites.jpg" alt="portfolio item">
+      </picture>
+
+      <figcaption class="port-desc">
+        <h2>Afacerea ta online</h2>
+        <p>Creare website Prezentare, Magazin online</p>
+        <a href="" class="button button-accent button-small">Detalii</a>
+      </figcaption>
+    </figure>
   </section>
 
   <section class="cta">
     <div class="container">
       <h1 class="title title-cta">Ai nevoie de ajutor?
-        <span>Ia legatura cu noi acum.</span>
+        <span>ia legătura cu noi acum.</span>
       </h1>
       <a href="" class="button button-dark">Contact</a>
     </div>
   </section>
 
   <footer>
+
     <div class="container">
       <div class="col-3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque temporibus commodi magni harum,
-          asperiores quis ullam aspernatur maxime culpa ad officiis nisi? Magnam accusantium cupiditate aperiam
-          quibusdam quam minima rerum excepturi illo. Vero, ipsum quod.</p>
+
+        <p>SC DIVATZ IT&C SRL<br>
+          STR. CUZA-VODA NR.77 , COVASNA, judet COVASNA
+          <br>
+          CIF:26785136<br>
+          <i class="fas fa-phone-square"></i> +40 773 786 726<br>
+          <i class="fas fa-at"></i> <a href="mailto:office@divatz.ro">office@divatz.ro</a><br>
+        </p>
       </div>
 
-      <div class="col-1">
+      <div class="col-1 social">
         <ul class="unstyled-list">
-          <li><strong>Lorem ipsum</strong></li>
-          <li>SDoloremque</li>
-          <li>Magnam </li>
-          <li>Vero, ipsum </li>
-          <li>Quo, optio! </li>
+          <li><strong>Social media</strong></li>
+          <li><i class="fab fa-facebook-square"></i></li>
+          <li><i class="fab fa-facebook-messenger"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
         </ul>
       </div>
 
       <div class="col-1">
-        <ul class="unstyled-list">
-          <li><strong>Lorem ipsum</strong></li>
-          <li>SDoloremque</li>
-          <li>Magnam </li>
-          <li>Vero, ipsum </li>
-          <li>Quo, optio! </li>
+        <ul class="unstyled-list cuprins">
+          <li><strong>Cuprins</strong></li>
+          <li><a href="">Reparatii PC/Laptop</a></li>
+          <li><a href="">Retelistica</a></li>
+          <li><a href="">Securitate</a></li>
+          <li><a href="">Personalizari</a></li>
+          <li><a href="">Achizitie echipamente IT</a></li>
+          <li><a href="">Afacerea ta online</a></li>
         </ul>
       </div>
 
       <div class="col-1">
-        <ul class="unstyled-list">
-          <li><strong>Lorem ipsum</strong></li>
-          <li>SDoloremque</li>
-          <li>Magnam </li>
-          <li>Vero, ipsum </li>
-          <li>Quo, optio! </li>
+        <ul class="unstyled-list terms">
+          <li><strong>GDPR</strong></li>
+          <li><a href="">Termeni si conditii</a></li>
+          <li><a href="">Confidentialitate</a></li>
         </ul>
       </div>
     </div>
     <div class="clearfix"></div>
     <div class="copy" id="copyright"></div>
   </footer>
-
 
   <script src="./js/main.js"></script>
   <script src="./js/parallax.js"></script>
