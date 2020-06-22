@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Specialistul tau in IT&C - Divatz IT&C SLR",
+  "short_name": "Divatz IT&C",
   "icons": [
     {
       "src": "./img/favico/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#12d0f1",
+  "background_color": "#232323",
   "display": "standalone"
 }
