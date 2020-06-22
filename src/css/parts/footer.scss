@@ -17,12 +17,6 @@ footer {
     bottom: -4em;
   }
 
-
-  .social i {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-  }
-
   a {
     color: white;
     text-decoration: none;
@@ -32,9 +26,27 @@ footer {
     }
   }
 
+  .social {
+
+    //text-align: center;
+    a:hover {
+      color: $primColor;
+      border: 0;
+    }
+
+    i {
+      font-size: 1.6rem;
+      padding: 0.5rem;
+    }
+  }
+
+
+
   .cuprins a,
   .terms a {
-    font-size: 0.80em;
+    font-size: 0.90em;
+    line-height: 1.6rem;
+
 
 
   }

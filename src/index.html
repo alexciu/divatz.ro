@@ -30,17 +30,18 @@
 <body>
 
   <header>
-    <picture>
-      <source type="image/webp" srcset="img/webp/logo.webp">
-      <source type="image/png" srcset="img/logo.png">
-      <img src="img/logo.png" alt="Divatz IT&C SRL logo" class="logo">
-    </picture>
-
+    <a href="/">
+      <picture>
+        <source type="image/webp" srcset="img/webp/logo.webp">
+        <source type="image/png" srcset="img/logo.png">
+        <img src="img/logo.png" alt="Divatz IT&C SRL logo" class="logo">
+      </picture>
+    </a>
     <nav>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -53,24 +54,25 @@
     </div>
   </section>
 
-  <div class="container">
+  <div class="container" id="about">
     <section class="home-about">
 
       <div class="home-about-textbox parallax--box">
         <h1>Cine suntem</h1>
-        <p>Cu o <strong>experienta de peste 10 ani</strong> in domeniu IT&C, advertising si personalizare va oferim o
-          gama larga de
-          servicii de calitate la un <strong>pret corect</strong>. Toate intr-un singur loc, pentru ca stim ca
-          <strong>timpul dvs este foarte
+        <p>Cu o <strong>experiență de peste 10 ani</strong> în domeniu IT&C, advertising și personalizare vă oferim o
+          gamă largă de
+          servicii de calitate la un <strong>preț corect</strong>. Toate într-un singur loc, știm că
+          <strong>timpul dumneavoastră este foarte
             important</strong>. </p>
-        <p><strong>Asteptam sa ne auzim cu drag</strong> pentru oricare din urmatoarele nevoi ale dumneavoastra:
+        <p><strong>Așteptăm să ne auzim cu drag</strong> pentru oricare din urmatoarele nevoi ale dumneavoastră:
         <ul class="unstyled-list">
-          <li> - <a href="">Reparatii/achizitie/upgrade PC/Laptop/Imprimante</a>></li>
+          <li> - <a href="">Reparații/achiziție/upgrade PC/Laptop/Imprimante</a></li>
           <li> - <a href="">Instalare Software</a></li>
-          <li> - <a href="">Creare/mentenata retele</a></li>
+          <li> - <a href="">Creare/mentenață rețele</a></li>
           <li> - <a href="">Instalare camere video de securitate</a></li>
-          <li> - <a href="">Personalizari pe orice tip de material sau obiect</a></li>
+          <li> - <a href="">Personalizări pe orice tip de material sau obiect</a></li>
           <li> - <a href="">Printuri, Banere, Flayere, Pixuri, Agende etc...</a> </li>
+          <li> - <a href="">Creare Website - Magazin Online</a> </li>
 
         </ul>
         </p>
@@ -93,7 +95,7 @@
 
       <figcaption class="port-desc">
         <h2>PC/Laptop</h2>
-        <p>Reparatii, Configuratii, Instalare</p>
+        <p>Reparații, Configurații, Instalare</p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
     </figure>
@@ -106,8 +108,8 @@
         <img src="img/sysadmin.jpg" alt="portfolio item">
       </picture>
       <figcaption class="port-desc">
-        <h2>Retelistica</h2>
-        <p>Creare si mentenanta retele </p>
+        <h2>Rețelistică</h2>
+        <p>Creare și mentenanță rețele </p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
     </figure>
@@ -135,8 +137,8 @@
         <img src="img/personalizare.jpg" alt="portfolio item">
       </picture>
       <figcaption class="port-desc">
-        <h2>Personalizari</h2>
-        <p>Print, gravura, broderie etc</p>
+        <h2>Personalizări</h2>
+        <p>Print, gravură, broderie etc</p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
     </figure>
@@ -150,7 +152,7 @@
         <img src="img/diverse.jpg" alt="portfolio item">
       </picture>
       <figcaption class="port-desc">
-        <h2>Achizitii <br /> echipamente IT</h2>
+        <h2>Achiziții <br /> echipamente IT</h2>
         <p></p>
         <a href="" class="button button-accent button-small">Detalii</a>
       </figcaption>
@@ -171,7 +173,7 @@
     </figure>
   </section>
 
-  <section class="cta">
+  <section class="cta" id="contact">
     <div class="container">
       <h1 class="title title-cta">Ai nevoie de ajutor?
         <span>ia legătura cu noi acum.</span>
@@ -186,7 +188,7 @@
       <div class="col-3">
 
         <p>SC DIVATZ IT&C SRL<br>
-          STR. CUZA-VODA NR.77 , COVASNA, judet COVASNA
+          STR. CUZA-VODA NR.77 , COVASNA, județ COVASNA
           <br>
           CIF:26785136<br>
           <i class="fas fa-phone-square"></i> +40 773 786 726<br>
@@ -197,21 +199,22 @@
 
       <div class="col-1 social">
         <ul class="unstyled-list">
-          <li><strong>Social media</strong></li>
-          <li><i class="fab fa-facebook-square"></i></li>
-          <li><i class="fab fa-facebook-messenger"></i></li>
-          <li><i class="fab fa-instagram"></i></li>
+
+          <li><a href="https://www.facebook.com/divatzit" target="_NEW"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://m.me/divatzit"><i class="fab fa-facebook-messenger"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
 
       <div class="col-1">
         <ul class="unstyled-list cuprins">
           <li><strong>Cuprins</strong></li>
-          <li><a href="">Reparatii PC/Laptop</a></li>
-          <li><a href="">Retelistica</a></li>
+          <li><a href="">Reparații PC/Laptop</a></li>
+          <li><a href="">Rețelistică</a></li>
           <li><a href="">Securitate</a></li>
-          <li><a href="">Personalizari</a></li>
-          <li><a href="">Achizitie echipamente IT</a></li>
+          <li><a href="">Personalizări</a></li>
+          <li><a href="">Print, Gravură, Broderie</a></li>
+          <li><a href="">Achiziție echipamente IT</a></li>
           <li><a href="">Afacerea ta online</a></li>
         </ul>
       </div>

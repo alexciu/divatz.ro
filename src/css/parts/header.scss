@@ -1,5 +1,6 @@
 /* header
 =================== */
+@import '../utils/vars';
 
 header {
   position: absolute;
@@ -31,7 +32,7 @@ nav {
 
   a:hover,
   a:focus {
-    color: #ddd;
+    color: $primColor;
   }
 }
 
