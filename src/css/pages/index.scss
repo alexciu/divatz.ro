@@ -11,3 +11,16 @@
 @import './../parts/hero';
 @import './../parts/portofolio';
 @import './../parts/cta';
+
+.home-about ul li {
+  line-height: 1.7rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid $primColor;
+    }
+  }
+}
