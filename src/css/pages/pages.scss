@@ -1,0 +1,28 @@
+@import './../parts/header';
+@import './../parts/cta';
+
+section.infopage {
+  padding-top: 6em;
+  background-color: $secColor;
+
+  div.infopage-text {
+    min-height: 50vh;
+    padding: 6em 2em;
+    background-color: white;
+    color: $secColor;
+    text-align: left;
+
+  }
+}
+
+@media (max-width:60rem) {
+  section.infopage {
+    padding-top: 10em;
+  }
+}
+
+@media (max-width:29rem) {
+  section.infopage {
+    padding-top: 12em;
+  }
+}

@@ -34,6 +34,18 @@ nav {
   a:focus {
     color: $primColor;
   }
+
+  .menu-phone {
+    a {
+      color: $primColor;
+      border: 1px transparent solid;
+      font-size: 1.2em;
+      outline-style: solid;
+      outline-color: $primColor;
+      outline-width: thin;
+    }
+
+  }
 }
 
 @media (min-width:60rem) {
@@ -44,4 +56,13 @@ nav {
   nav {
     float: right;
   }
+}
+
+@media (max-width:29rem) {
+  .menu-phone {
+    display: block;
+  }
+
+
+
 }

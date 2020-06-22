@@ -28,5 +28,10 @@
   },
   "dependencies": {
     "index": "^0.4.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   }
 }
