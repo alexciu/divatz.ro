@@ -25,8 +25,8 @@
 .home-about-textbox {
   background-color: $secColor;
   padding: 4em;
-  width: 100vw;
-  margin-left: -2.5%;
+  //width: 100vw;
+  //margin-left: -2.5%;
   outline: 2px solid $primColor;
   outline-offset: -2.5em;
   color: #FFF;
@@ -85,6 +85,14 @@
       left: 6rem;
       transform: translateX(0);
     }
+  }
+
+}
+
+@media (max-width:60rem) {
+
+  div.container#about {
+    width: 100%;
   }
 
 }

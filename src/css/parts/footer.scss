@@ -27,6 +27,11 @@ footer {
   }
 
   .social {
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap;
+    }
 
     //text-align: center;
     a:hover {
@@ -46,8 +51,22 @@ footer {
   .terms a {
     font-size: 0.90em;
     line-height: 1.6rem;
+  }
+}
 
+@media (max-width: 40rem) {
 
+  footer {
+    .social ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    .cuprins,
+    .terms {
+      text-align: center;
+    }
 
   }
+
 }
